@@ -10,7 +10,8 @@ function setup() {
   createCanvas(maxX, maxY);
 
   frameRate(speed);
-  // console.log(s2.body.length);
+
+// console.log(s2.body.length);
   fruit = placeFruit();
   s2 = placeSnake();
 }
